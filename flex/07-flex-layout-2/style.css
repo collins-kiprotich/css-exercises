@@ -25,4 +25,47 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  width: 33.33%;
+  height: 300px;
+}
+.sidebar{
+padding-top: 60px;
+position: fixed;
+top: 0px;
+bottom: 10px;
+left: 0px;
+width: 150px;
+line-height: 24px;
+display: flex;
+justify-content: center;
+z-index: -1;
+padding-right: 30px;
+
+
+
+}
+.main-content{
+  margin-left: 200px;
+  display: flex;
+  flex-basis: 33.3333%;
+  margin-right: 100px;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+.footer{
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+ul li{
+  list-style: none;
+ 
 }
